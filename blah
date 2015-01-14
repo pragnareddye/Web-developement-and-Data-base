@@ -1,0 +1,56 @@
+<script type="text/javascript">
+ function validate()
+{      
+	//var one=document.forms['myForm'].elements['gname'].value;
+	
+	if(document.forms['myForm'].elements['gname'].value == "" )
+	{
+		alert("You did not Enter the group name \n"+"Please Enter one");
+		
+		document.forms['myForm'].elements['gname'].focus();
+		return false;
+		 
+	}
+	
+	
+	
+	
+	if(document.forms['myForm'].elements['no_ppl'].value=="")
+	{
+		alert("You did not Enter the number of visitors \n"+"Please Enter one");
+		
+		document.forms['myForm'].elements['no_ppl'].focus();
+		 return false;
+	}
+	
+	if(document.forms['myForm'].elements['visit'].value=="")
+	{
+		alert("You did not Enter the visit date \n"+"Please Enter one");
+		
+		document.forms['myForm'].elements['visit'].focus();
+		return false;
+		 
+	}
+	
+	
+	
+	if(document.forms['myForm'].elements['phone_no'].value=="")
+	{
+		alert("You did not Enter the mobile_no \n"+"Please Enter one");
+		
+		document.forms['myForm'].elements['phone_no'].focus();
+		return false;
+		 
+	}
+	if(document.forms['myForm'].elements['email'].value=="")
+	{
+		alert("You did not Enter the email id \n"+"Please Enter one");
+		
+		document.forms['myForm'].elements['email'].focus();
+		return false;
+		 
+	}
+	
+	
+}
+</script>

@@ -1,0 +1,100 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	background: #2a2a2a;
+}
+a:link, a:visited { color: #99bf28; text-decoration: underline; } 
+a:active, a:hover { color: #99bf28; text-decoration:none; }
+
+
+.cleaner {
+	clear: both;
+	height: 1px;
+	width: 100%;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	height: 30px;
+	width: 100%;
+	font-size: 1px;	
+}
+
+/* top panel */
+
+
+#templatemo_top_panel{
+	width:100%;
+	height: 162px;	
+	margin-bottom: 10px;
+	background: url(beautiful-background-10.jpg) ;
+	background-repeat: repeat;
+}
+
+#templatemo_top_panel #templatemo_top_section{
+	width: 930px; /* + 30 for padding right */
+	height: 195px; /* + 100 for padding */
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-right: 30px;
+	
+}
+
+#templatemo_top_section #site_title {
+	text-align: right;
+	font-size: 40px;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+#templatemo_top_section #site_tagline {
+	text-align: right;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px 0;
+	color: #dcff86;
+}
+
+/* TemplateMo menu */
+
+#templatemo_top_section #templatemo_menu{
+	clear: both;
+	margin-top: 15px;
+	height: 35px;	
+	text-align: right;
+}
+
+#templatemo_menu ul {
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	padding: 2px 25px;
+	margin-right: 2px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #fbe270;
+	border-right: 1px solid #5f3b11;	
+}
+
+
+
+#templatemo_menu li .last {
+	border-right: none;
+	padding-right: 0;
+}
